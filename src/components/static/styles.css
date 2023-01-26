@@ -1,0 +1,14 @@
+.button-price-nexy {
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: 2px solid;
+    width: 5rem;
+    height: 3rem;
+    background: rgba(46, 137, 255, 0.5);
+    transition: 0.5s
+}
+
+.button-price-nexy:hover {
+    transform: scale(1.05);
+    background: rgb(81, 156, 255);
+}   

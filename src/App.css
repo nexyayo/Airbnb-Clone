@@ -1,5 +1,10 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .App {
-  text-align: center;
+  margin: 1;
+  align-self: center;
 }
 
 .App-logo {
@@ -35,4 +40,208 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#airbnb-logo {
+  max-width: 100px;
+  padding: 20px 15px;
+}
+
+nav {
+  position: sticky;
+  top: 0;  text-align: center;
+  background-color: white;
+  height: 70px;
+  display: flex;
+  width: 100%;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+nav:hover {
+  background-color: rgba(252, 102, 102, 0.3);
+  transform: scale(1.05);
+  margin-left: 30px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 1300px;
+  align-self: center;
+  transition: 0.5s;
+}
+
+.hero--lineup {
+  align-self: center;
+  margin: 50px;
+  width: 400px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px
+}
+
+.hero--text {
+  align-self: center;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  width: 800px;
+  height: 260px;
+  transition: 0.5s;
+}
+
+.hero--text:hover {
+  transform: scale(1.05);
+}
+
+
+.hero--header {
+  position: flex;
+  margin-bottom: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.hero--paragraph {
+  position: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.wrapper--content--nexy {
+  position: auto;
+  overflow-y: scroll;
+}
+
+.welcome--banner {
+  text-align: center;
+  transition: 0.5s;
+  font-size: 50px;
+}
+
+.welcome--banner:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.card {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  width: 175px;
+  font-size: 20px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);  
+}
+
+.card--image {
+  height: 350px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card--star--img { 
+  width: 10%;
+}
+
+.card--stats { 
+  display: flex;
+  align-items: center;
+}
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card--descriptions {
+  font-size: 15px;
+}
+
+.cards--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden; 
+}
+
+.card--title { 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--sold-badge {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: rgba(245, 71, 71, 1);
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.card--avaible-badge {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: rgb(80, 250, 65);
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.card--online-badge {
+  position: absolute;
+  top: 320px;
+  left: 25px;
+  background-color: rgba(112, 253, 99, 0.4);
+  padding: 5px 7px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.card--online-badge:hover {
+  background-color: rgba(112, 253, 99, 1);
+}
+
+.card--offline-badge {
+  position: absolute;
+  top: 320px;
+  left: 25px;
+  background-color: rgb(250, 65, 80, 0.4);
+  padding: 5px 7px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.card--offline-badge:hover {
+  background-color: rgb(250, 65, 80, 1);
+}
+
+.sellers--text {
+  text-align: center;
+  transition: 0.5s;
+}
+
+.sellers--text:hover {
+  transform: scale(1.05);
 }
